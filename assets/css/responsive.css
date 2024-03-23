@@ -73,6 +73,9 @@
         font-weight: 500;
         line-height: 23.52px;
     }
+    section.footer_bg h1 {
+        font-size: 28px;
+    }
 }
 
 

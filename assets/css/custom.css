@@ -318,7 +318,7 @@ section.a_team {
     line-height: 40px;
 }
 .core_team-content h4 {
-    font-size: 25.74px;
+    font-size: 23.74px;
     font-weight: 500;
     line-height: 26.38px;
     text-align: left;
@@ -411,4 +411,47 @@ section.a_about-section::after {
 .num_4 {
     background: #875BE4;
     color: #100768;
+}
+section.footer_bg {
+    background-image: url(../images/footer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section.footer_bg {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section.footer_bg p {
+    padding-bottom: 0;
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.experience-list {
+    list-style: none;
+    padding: 0;
+  }
+  .experience-list li {
+    margin-bottom: 10px;
+    color: white;
+    margin-left: 17px;
+  }
+  .experience-list li:before {
+    content: "•";
+    color: #ffffff; /* Change the color as needed */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  .core_team-content b {
+    color: white;
+    padding: 3px 0px 15px 0px;
+    display: inline-block;
+}
+.core-team_img img {
+    width: 90%;
 }
