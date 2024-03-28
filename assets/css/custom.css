@@ -260,6 +260,9 @@ section.a_team {
 }
 .a-team-img img {
     padding: 20px;
+    min-height: 389px;
+    max-height: 389px;
+    object-fit: cover;
 }
 .a_team-content h3 {
     font-size: 29.99px;
